@@ -1,4 +1,4 @@
-
+// Viggo start
 function updateBreeds() {
     let animal_type = document.getElementById("animal-type");
     let type = animal_type[animal_type.selectedIndex].value
@@ -87,3 +87,4 @@ window.onload = function() {
 
     updateBreeds();
 }
+// Viggo slut
