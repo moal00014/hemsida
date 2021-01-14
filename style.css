@@ -2,7 +2,6 @@
 /* redigeringar av viggo */
 body {
   background: white;
-  background: linear-gradient(white);
   background-repeat: no-repeat;
   height: 100vh;
   width: 98vw;
@@ -55,11 +54,15 @@ nav li {
   border-radius: 10%;
   background: linear-gradient(brown, orange);
   height: 88%;
-  line-height: 2.3;
+  line-height: 4em;
 }
 nav a {
   color: white;
   text-decoration: none;
+}
+
+a[href^="raser.html"] {
+  color: blue;
 }
 
 header > h1 {
