@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Viggo start -->
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8">
+    <title>Anmäl</title>
+    <link href="info.css" rel="stylesheet">
+    <script src="anmäl.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Anmäl ett borttappat husdjur</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="raser.html?type=cat">Kattraser</a></li>
+                <li><a href="raser.html?type=dog">Hundraser</a></li>
+                <li><a href="anmäl.html">Anmäl</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form onsubmit="addMissing()">
+                <label for="animal-type">Välj typ av djur:</label>
+                <select onchange="updateBreeds()" name="animal-type" id="animal-type">
+                    <option value="cat">Katt</option>
+                    <option value="dog">Hund</option>
+                </select>
+                <br>
+                <label for="breed-choice">Välj typ av ras:</label>
+                <select name="breed-choice" id="breed-choice">
+                    <option value="breed-template">NAME</option>
+                </select>
+                <br>
+                <label for="phone">Skriv in telefonnummer (XXXX-XXXXXX)</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{6}" required>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+        <footer>
+            KONTAKT UPPGIFTER
+            <br>moal00014@utb.vaxjo.se
+            <br>0763370253
+        </footer>
+    </div>
+</body>
+
+</html>
+<!-- Viggo slut-->
