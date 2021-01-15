@@ -1,20 +1,20 @@
 /* mohamad alsouki start */
 /* redigeringar av viggo */
+/* redigeringar av Mohamad */
 body {
   background: white;
+  background: linear-gradient(white);
   background-repeat: no-repeat;
   height: 100vh;
   width: 98vw;
-  padding: 0;
-  margin: 0;
 }
 
 #wrapper {
-  height: calc(100% - 66px);
+  height: 25%;
   display: grid;
   width: 100%;
   margin: 0 auto;
-  gap: 10px;
+  grid-gap: 10px;
   grid-template-rows: 80px 70px auto 30px;
 
   grid-template-areas:
@@ -54,15 +54,11 @@ nav li {
   border-radius: 10%;
   background: linear-gradient(brown, orange);
   height: 88%;
-  line-height: 4em;
+  line-height: 2.3;
 }
 nav a {
   color: white;
   text-decoration: none;
-}
-
-a[href^="raser.html"] {
-  color: blue;
 }
 
 header > h1 {
@@ -94,7 +90,9 @@ main {
   padding: 10px;
   margin: 10px;
   background-color: #aaa;
-  height: calc(100% - 40px);
+  height: calc(90% - 40px);
 }
-
+h3, h4 {
+	font-size: 1.5em;
+}
 /* mohamad alsouki slut */
