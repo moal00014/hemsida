@@ -92,7 +92,30 @@ main {
   background-color: #aaa;
   height: calc(90% - 40px);
 }
-h3, h4 {
-	font-size: 1.5em;
+h3,
+h4 {
+  font-size: 1.5em;
 }
 /* mohamad alsouki slut */
+
+/* Viggo start */
+
+#breed-grid {
+  display: grid;
+  gap: 10px;
+  /* Gör alla kolumner lika breda */
+  grid-template-columns: repeat(3, 1fr);
+
+  padding: 10px;
+}
+
+.breed {
+  background-color: #666;
+  padding: 10px;
+}
+
+.breed-name {
+  text-align: center;
+}
+
+/* Viggo slut */

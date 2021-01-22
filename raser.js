@@ -36,7 +36,7 @@ const missings = JSON.parse(localStorage.getItem("missings"));
 let type_name;
 let breeds;
 if (type === "cat") {
-    type_name = "katter";
+    type_name = "Katter";
     breeds = [
         {
             name: "Ragdoll",
@@ -50,7 +50,7 @@ if (type === "cat") {
         }
     ]
 } else if (type === "dog") {
-    type_name = "hundar";
+    type_name = "Hundar";
     breeds = [
         {
             name: "Shiba Inu",
